@@ -4,7 +4,7 @@
 }
 .navbar {
   height: 70px;
-  padding:10px 50px;
+  padding: 10px 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,17 +14,73 @@
   list-style: none;
   gap: 20px;
 }
-.navbar a {
+
+#ea-button {
+  background: green;
+  color: white;
+  padding: 10px;
   text-decoration: none;
-  color: black;
   font-size: 17px;
   font-weight: 600;
 }
-#ea-button{
-    background-color:green;
-    color:white;
-    padding:10px;
+#ea-button:hover{
+  background:aqua;
+  color:green;
 }
 header {
   border-bottom: 1px solid #eee;
+}
+.banner {
+  background-image: url(./Assets/hero-bg.png);
+  height: 88vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content {
+  text-align: center;
+  color: white;
+  width: 80%;
+}
+.banner-content h1 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+.ea-open {
+  background: white;
+  color: green;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.description {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+.buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 0 10px;
+  display: inline-block;
+}
+.button-1{
+  background:green;
+  color:white;
+}
+.button-1:hover{
+  background: white;
+  color:green;
+}
+.button-2{
+  border:1px solid white;
+  color:white;
+}
+.button-2:hover{
+  background: white;
+  color:green;
 }
