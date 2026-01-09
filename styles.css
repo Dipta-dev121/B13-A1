@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 70px;
+  padding:10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+}
+#ea-button{
+    background-color:green;
+    color:white;
+    padding:10px;
+}
+header {
+  border-bottom: 1px solid #eee;
+}
