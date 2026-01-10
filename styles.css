@@ -232,3 +232,54 @@ header {
   font-size: 14px;
   color: black;
 }
+.footer {
+  background: darkblue;
+  color: white;
+  padding: 40px 20px;
+}
+.footer-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-right {
+  text-align: right;
+}
+.social-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.social-icons a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons a:hover {
+  background: white;
+  color: black;
+}
+.footer hr {
+  width: 85%;
+  margin: 25px auto 15px;
+  border-top: 1px solid grey;
+}
+.footer-text {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
