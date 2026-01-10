@@ -189,3 +189,46 @@ header {
   width: 18px;
   height: 18px;
 }
+.early-access {
+  width: 80%;
+  margin: 80px auto;
+  padding: 60px 20px;
+  background: #f8f6f1;
+  border-radius: 12px;
+  text-align: center;
+}
+.early-access h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #0b1b2b;
+}
+.early-text {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.early-button {
+  display: inline-flex;
+  align-items: center;
+  background: green;
+  color: white;
+  padding: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 6px;
+  gap: 10px;
+}
+.early-button img {
+  width: 14px;
+  height: 14px;
+}
+.early-button:hover {
+  background: white;
+  color: green;
+}
+.early-note {
+  margin-top: 20px;
+  font-size: 14px;
+  color: black;
+}
