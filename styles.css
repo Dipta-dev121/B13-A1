@@ -9,6 +9,15 @@
   align-items: center;
   justify-content: space-between;
 }
+.navbar a{
+  text-decoration: none;
+  font-size:18px;
+  font-weight:600;
+  color:black;
+}
+.navbar a:hover{
+  text-decoration: underline;
+}
 .nav-links {
   display: flex;
   list-style: none;
@@ -19,9 +28,8 @@
   background: green;
   color: white;
   padding: 10px;
-  text-decoration: none;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
 }
 #ea-button:hover{
   background:aqua;
@@ -56,21 +64,26 @@ header {
   margin: 20px;
 }
 .description {
-  font-size: 17px;
-  line-height: 1.8;
+  font-size: 19px;
+  line-height: 1.6;
   margin-bottom: 25px;
 }
-.buttons a {
-  text-decoration: none;
+.buttons{
+  display:flex;
+  justify-content: center;
+  gap:18px;
+}
+.buttons button {
   padding: 10px 20px;
   border-radius: 6px;
   font-weight: bold;
-  margin: 0 10px;
-  display: inline-block;
+  margin: 2px 10px;
 }
+
 .button-1{
   background:green;
   color:white;
+  border:1px solid black;
 }
 .button-1:hover{
   background: white;
@@ -79,6 +92,7 @@ header {
 .button-2{
   border:1px solid white;
   color:white;
+  background:none;
 }
 .button-2:hover{
   background: white;
