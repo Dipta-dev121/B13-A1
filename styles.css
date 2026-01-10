@@ -143,3 +143,49 @@ header {
   font-size: 16px;
   color: grey;
 }
+.second-brain {
+  padding: 50px 0;
+  background: #ffffff;
+}
+.second-brain-content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.second-brain-left img {
+  width: 400px;
+}
+.tag {
+  color: green;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.sub-title {
+  font-size: 42px;
+  color: black;
+  margin-bottom: 15px;
+}
+.desc {
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.sub-list {
+  list-style: none;
+}
+.sub-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+  color: black;
+  font-size: 16px;
+}
+.sub-list li img {
+  width: 18px;
+  height: 18px;
+}
