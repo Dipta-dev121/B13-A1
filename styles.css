@@ -9,13 +9,13 @@
   align-items: center;
   justify-content: space-between;
 }
-.navbar a{
+.navbar a {
   text-decoration: none;
-  font-size:18px;
-  font-weight:600;
-  color:black;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
 }
-.navbar a:hover{
+.navbar a:hover {
   text-decoration: underline;
 }
 .nav-links {
@@ -23,7 +23,6 @@
   list-style: none;
   gap: 20px;
 }
-
 #ea-button {
   background: green;
   color: white;
@@ -31,9 +30,9 @@
   font-size: 17px;
   font-weight: 500;
 }
-#ea-button:hover{
-  background:aqua;
-  color:green;
+#ea-button:hover {
+  background: aqua;
+  color: green;
 }
 header {
   border-bottom: 1px solid #eee;
@@ -68,10 +67,10 @@ header {
   line-height: 1.6;
   margin-bottom: 25px;
 }
-.buttons{
-  display:flex;
+.buttons {
+  display: flex;
   justify-content: center;
-  gap:18px;
+  gap: 18px;
 }
 .buttons button {
   padding: 10px 20px;
@@ -79,22 +78,68 @@ header {
   font-weight: bold;
   margin: 2px 10px;
 }
-
-.button-1{
-  background:green;
-  color:white;
-  border:1px solid black;
+.button-1 {
+  background: green;
+  color: white;
+  border: 1px solid black;
 }
-.button-1:hover{
+.button-1:hover {
   background: white;
-  color:green;
+  color: green;
 }
-.button-2{
-  border:1px solid white;
-  color:white;
-  background:none;
+.button-2 {
+  border: 1px solid white;
+  color: white;
+  background: none;
 }
-.button-2:hover{
+.button-2:hover {
   background: white;
-  color:green;
+  color: green;
+}
+.problems {
+  padding: 60px 0;
+  text-align: center;
+}
+.problems h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.problems-text {
+  font-size: 16px;
+  color: grey;
+  margin: 20px;
+}
+.problem-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.problem {
+  width: 220px;
+  padding: 25px 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px black;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon img {
+  width: 22px;
+}
+.problem h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.problem p {
+  font-size: 16px;
+  color: grey;
 }
